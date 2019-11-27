@@ -1,0 +1,8 @@
+1)Script were not following the Design Pattern 
+2)I have used the Page Factory for designing of test script becausing because Page layer and Test Script is in different packages which increase the readability ,resuability and maintainence of script of easy.
+3) Base Class was missing 
+4) Every Script were defining the browser and url individually I have defined in a test base and calling it in a test script which has optimized the script.
+5)  Added Switch to frame method for SignIn dialog box
+6) Moved is Element Present and Wait method to base class.
+7) Created 1 separate config folder for properties file where we can store the information of browser and url
+8) Updated the chrome driver version and POM file.
